@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Vina Sans">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    
+
+    <title>Servicios</title>
+</head>
+<body>
+    
+  <nav class="navbar" role="navigation">
+    <div class="logo">
+       <p><a href="Index2.html"> <img src="nuevologo.png" width="90"></a></p>
+    </div>
+  <ul class="lista">
+    <li><a href="Index2.html"> Inicio</a></li>
+    <li><a href="services.html">Servicios</a></li>
+    <li><a href="contact.html">Contacto</a></li>
+    <li><a href="about.html">Galeria</a></li>
+  </ul>   
+</nav>
+     
+    <div class="container">
+            <h1 class="agradecimiento">Nuestros servicios</h1>
+            <p class="pres">Ofrecemos una amplia variedad de servicios para satisfacer tus necesidades.</p>
+            </div>
+            <p id="salidaTabla"></p>   
+
+        
+     
+
+     
+  <br>
+  <br>
+  <br>
+  <P>Haciendo click en "consultas" hay respuestas de preguntas frecuentes</P>
+  <div class="dropdown">
+
+      <button>Consultas</button>
+    
+    <div class="dropdown-content">
+      <P href="#" onClick="MostrarCorteAdulto()">Cortes para adultos</P>
+      <P href="#" onClick="MostrarCorteNino()">Cortes para niños</P>
+      <p href="#" onClick="MostrarTiempoMayor()" >Tiempo de corte mayor a 20 minutos</p>
+      <p href="#" onClick="MostrarMayorPrecio()"> Corte mayor a $1700</p>
+      <p href="#" onClick="MostrarMenorPrecio()">Corte menos de $2000</p>
+      </div>
+    </div>
+  </div>
+
+ 
+ 
+  <section>
+  <p id="nombresM"> </p>
+ 
+  </section>
+  <br>
+  <br>
+  <br>
+    <div class="container"><h1>Turnos</h1>
+    <div id="salida"></div>
+ 
+ 
+<button onclick = "listarTodo()">Listar Todo</button>
+<hr>
+ 
+ <p>
+                <label>Odenar: </label>
+                <button onclick="ascendente()">Ascendente</button>
+                &nbsp;&nbsp;&nbsp;
+                <button onclick="descendente()">Descendente</button>
+            </p>
+ 
+ 
+ 
+ 
+ 
+<p>
+<input type=number id='nroElem'>
+<button onclick = "eliminarUno()">Eliminar Turno</button>
+</p>
+<hr>
+<p>
+<input type='checkbox' name='delAfiliado' id='delAfiliado'><label>Niños/</label>
+<button onclick= "eliminarTodos()"> Eliminar </button>
+</p>
+ 
+ <center>
+<br><hr><br>
+<p><label>Nombre y Apellido:</label><input type='text' id='nombress'></p>
+<p><label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fecha:</label><input type='date' id='diaa'></p>
+<p><label>Hora:</label><input type='time' id='horaa'></p>
+<p><input type='checkbox' name='ninoss' id='ninoss'><label>Niños</label> </p> 
+<p><button onclick= "agregar()"> Agregar </button> </p>
+</center></div>
+
+
+      <footer class="services"> Sucio & Desprolijo &copy; by AC Software Development</footer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+      <script src="form.js"></script>
+    </body>
+</html>

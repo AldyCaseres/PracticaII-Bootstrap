@@ -1,0 +1,386 @@
+body{
+  background-color: rgb(63, 63, 63);
+  
+  }
+  
+  
+  .navbar{
+    
+      background-color: rgba(0, 0, 0, 0.829);
+      padding: 0.25rem;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      text-align: center;
+      font-size: 20px;
+      display: flex;
+      align-items: center;
+      text-transform:uppercase;
+      font-weight: bold;
+      letter-spacing: 1px; 
+      justify-content: center;
+      
+      
+  }
+  @media (max-width:768px){
+      .navbar{
+        font-family: Arial, Helvetica, sans-serif; 
+        font-size:15px ; 
+      }
+  }
+  .navbar ul {
+      list-style-type: none; /* Elimina los estilos de viñeta de la lista */
+      margin: 0; /* Elimina el margen predeterminado de la lista */
+      padding: 0; /* Elimina el relleno predeterminado de la lista */
+    
+    }
+    
+    .navbar li {
+      display: inline-block; /* Muestra los elementos de la lista en línea horizontal */
+      margin-right: 10px; /* Espacio derecho entre elementos de la lista */
+      
+    }
+    
+    .navbar a {
+      color: #fff; /* Color de texto de los enlaces */
+      text-decoration: none; /* Elimina el subrayado de los enlaces */
+    }
+    
+    .lista a:hover {
+      color: #777777; /* Cambia el color de texto al pasar el cursor sobre los enlaces */
+    }
+    .logo img{
+      height: 80px;
+  
+    }
+    .lista{
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+    .lista li {
+      margin-left: 10px; /* ajusta el espaciado entre los elementos de la lista */
+    }
+    
+    .lista li a {
+      text-decoration: none;
+      color: #fff6f6;
+      
+    }
+  .container{
+      background-color: rgb(149, 149, 151);
+      
+  }
+  .cont{
+    font-family: Vina sans;
+    font-weight:lighter;
+    text-align: center;
+  }
+  .container h1{
+      font-size: 150px;
+      text-align: center;
+      font-family: vina sans;
+      color: black;
+      text-shadow: 3px 3px 1px white;
+      text-decoration: none;
+      margin: 10px 10px 10px ;
+      
+  }
+  .container h2{
+    font-size: 30px;
+    color: #000000;
+    font-family: Truculenta;
+    text-align: center;
+  }
+  .container h5{
+    font-size: 30px;
+    margin-top: 80px;
+    margin-left: 80px;
+    margin-right: 80px;
+    border-left: 80px;
+    border-right: 80px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    padding-left: 70px;
+    font-family: josefin sans;
+  }
+  .container h3{
+    font-size: 30px;
+    color: #000000;
+    font-family: Truculenta;
+    text-align: center;
+  }
+  .agradecimiento{
+  font-family: cursive;
+  text-align: center;
+  }
+  .pres{
+      color: rgb(0, 0, 0);
+      text-align: right;
+      font-size: 20px;
+      font-family: 'Courier New', Courier, monospace;
+  }
+  footer{
+   
+      text-align: center;
+      color: #fff;
+      align-items: center;
+  }
+  .services{
+    text-align: center;
+      color: #000000;
+      align-items: center;
+  }
+  
+  .videoo{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-image: url(nuevologo.png);
+      background-repeat: repeat;
+      background-size: 250px;
+
+  }
+  @media (max-width:768px){
+    .videoo{
+      height: 70px;
+      display: flex;
+      align-items: flex-start;
+    }
+  }
+  main, footer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+   
+    .containerr img {
+      width: 300px;
+      margin: 5px;
+      display: flex;
+    
+    }
+   .container li{
+      font-size: 25px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      list-style-type: square;
+    }
+  /* --------- tabla----------*/
+  table{
+    background-color: #7567673b;
+    border-collapse: collapse;
+    width: 100%;
+  
+  }
+  th, td{
+    padding: 8px;
+    text-align: left;
+
+  
+  
+  }
+  th{
+    background-color: #f2f2f2;
+   
+    
+  }
+  td:first-child{
+  
+    font-weight: bold;
+ 
+  
+  }
+  
+  p{
+    font-size: 30px;
+  }
+    #nombress{
+    font-size: 20px;
+  }
+  #diaa{
+    font-size: 20px;
+  }
+  #horaa{
+    font-size: 20px;
+  }
+  /*Consultas*/
+  .dropdown{
+    background-color: none ;
+     display: block;
+    position: relative;
+    font-size: 10px;
+  }
+  .dropdown-content {
+  
+  
+      display: none;
+  
+  
+      position: absolute;
+  
+  
+      width: 100%;
+  
+  
+      overflow: auto;
+  
+  
+      box-shadow: 0px 8px 16px 0px rgb(0, 0, 0);
+      margin: auto;
+      background-color: #cfcfcf;
+  
+  
+  }
+  .dropdown:hover .dropdown-content {
+  
+  
+      display: block;
+  
+  
+  }
+  .dropdown-content p:hover {
+  
+  
+      color: #fcfdff;
+  
+  
+      background-color: #000000a2;
+  
+  
+  }
+  
+  button {
+      background-color: #808080; 
+      border: none;
+      color: rgb(253, 246, 246);
+      padding: 15px 32px;
+      text-align: revert-layer;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 20px;
+      font-family: 'Courier New', Courier, monospace;
+  } 
+  /* ubicacion*/
+  .ubi{
+    font-size: 60px;
+    color: #000000;
+    font-family: Vina Sans;
+    text-align: center;
+    text-shadow: 3px 3px 1px rgba(255, 255, 255, 0.87);
+  }
+ 
+  .Calle{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+  }
+  .FORM{
+    background-color: #808080;
+    
+  }
+  
+  .FORM h1{
+    font-size: 25px;
+  }
+  /* galeria*/
+  .gallery-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .main-image {
+    margin-bottom: 10px;
+  }
+  
+  .thumbnails img {
+    width: 100px;
+    height: auto;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  .navigation button {
+    margin-right: 5px;
+  }
+  /*carrousel slide*/
+  section{
+    display: flex;
+    width: 900px;
+    height: 430px;
+  }
+   section img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+   }
+   section img:hover{
+    cursor: crosshair;
+    width: 500px;
+    opacity: 1;
+    filter: contrast(120%);
+   }
+   /*--------------imagenes de servicios---*/
+   .servicios{
+    display: flex;
+        flex-wrap: wrap;
+        justify-content: center; /* Centra los elementos horizontalmente */
+        align-items: flex-start;
+   }
+   .servicios img{
+    max-width: 100%;
+    margin: 10px;
+   }
+   hr{
+    background-color: #999a9c;
+    height: 10px;
+    border: none;
+   }
+   /* ------------ botones de redes sociales-------*/
+   i.fab.fa-whatsapp {
+    font-size: 100px;
+    color: green;
+    margin-right: 10px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  }
+  i.fab.fa-facebook-f {
+    font-size: 100px;
+    background-color: blue;
+    color: rgb(255, 255, 255);
+    margin-right: 10px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  }
+  i.fab.fa-instagram {
+    font-size: 100px;
+    color: #f2f2f2;
+    background: linear-gradient(to bottom,rgb(132, 4, 172), rgb(235, 15, 255) ,yellow);
+    margin-right: 10px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  }
+  .redes h1{
+    font-size: 50px;
+    text-align: center;
+    font-family: Neko One;
+    color: black;
+    text-shadow: 3px 3px 1px white;
+    text-decoration: none;
+    margin: 10px 10px 10px ;
+  }
+  /*----------------------------*/
+  .serv h1{
+    background-color: #999a9c;
+    font-size: 40px;
+    text-align: center;
+    font-family: Neko One;
+    color: black;
+    text-shadow: 3px 3px 1px white;
+    text-decoration: none;
+    margin: 10px 10px 10px ;
+  }
+   /*____________________________________*/
+   .todo{
+    background-color: #1100ff;
+   }

@@ -1,0 +1,15 @@
+body{
+    background-color: #000000;
+}
+.container1{
+    background-color: #72ffde;
+}
+.my-col {
+    background-color: #3391ee; /* Color de fondo */
+    border: 1px solid #000000; /* Borde */
+    padding: 10px; /* Espaciado interno */
+  
+  }
+.card-body{
+    background-color: darkcyan;
+}
